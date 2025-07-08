@@ -1,0 +1,50 @@
+// C1-A1 Variable/Constants Declaration and String Concatenation Methods
+
+// Student information
+const firstName = "Juan";
+const middleName = "Gamos";
+const lastName = "Dela Cruz";
+const birthDate = "January 1, 2001";
+const birthPlace = "Barangay, City, Benguet, Philippines, 2600";
+const currentAddress = "San Nicolas, Candon City, Ilocos Sur, Philippines, 2170";
+const courseYear = "Bachelor of Science in Computer Science";
+const dreamJob = "Software Engineer";
+
+// Formatting full name in regular case
+const fullName = `${firstName} ${middleName} ${lastName.toUpperCase()}`;
+
+// Outputting student information
+const studentInfo = `${fullName} was born on [${birthDate}] at [${birthPlace}] and currently living at [${currentAddress}]. 
+${fullName} is taking up [${courseYear}] and dreams to be a [${dreamJob}] after graduation.`;
+
+console.log(studentInfo);
+
+
+
+// C1-A2 Mathematical and Comparison Operations
+
+// Variable Declaration
+let a = 25;
+let b = 20;
+let c = 12;
+const d = 15;
+
+// Displaying sum of variables
+const sum = a + b + c + d;
+console.log(`Sum of a, b, c and d: ${sum}`);
+
+// Comparing variables
+console.log(`Is d greater than e?: ${d > e}`);
+console.log(`Is d less than e?: ${d < e}`);
+console.log(`Is d equal to e?: ${d === e}`);
+
+// Performing mathematical operations
+const subtract = a - b - c - d;
+const multiply = a * b / d;
+const exponent = Math.pow(d, c);
+const reassignedValue = c; // Reassigning the value of c to constant e.
+
+console.log(`Subtraction of all values: ${subtract}`);
+console.log(`Multiplication of a and b divided by constant d: ${multiply}`);
+console.log(`Exponent of constant d raised to the power of variable c: ${exponent}`);
+console.log(`Reassigned value of c to constant e: ${reassignedValue}`);
